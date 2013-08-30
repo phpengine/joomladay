@@ -154,7 +154,7 @@ private function setVHostTemplate() {
       # AuthUserFile /etc/apache2/gchtpass/staging.conf
       # AuthName "Blue VIP Staging Site"
       # AuthType basic
-      require valid-user
+      # require valid-user
   	</Directory>
     ErrorLog /var/log/apache2/error.log
     CustomLog /var/log/apache2/access.log combined
