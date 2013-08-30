@@ -151,9 +151,9 @@ private function setVHostTemplate() {
   		AllowOverride All
 		  Order allow,deny
 	  	allow from all
-      AuthUserFile /etc/apache2/gchtpass/staging.conf
-      AuthName "Blue VIP Staging Site"
-      AuthType basic
+      # AuthUserFile /etc/apache2/gchtpass/staging.conf
+      # AuthName "Blue VIP Staging Site"
+      # AuthType basic
       require valid-user
   	</Directory>
     ErrorLog /var/log/apache2/error.log
