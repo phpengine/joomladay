@@ -49,11 +49,11 @@ git show HEAD:build/config/dapperstrano/autopilots/auto-prod-revision-install.ph
 rm -rf /tmp/dave-does-delivery
 cd /tmp
 sudo dapperstrano autopilot execute autopilot-dddl-production-install.php
-sudo jrush jfeature feature-install --config-file=/var/www/gcapplications/live/dave-does-delivery/dave-does-delivery/current/src/configuration.php --feature-file=/var/www/gcapplications/live/dave-does-delivery/dave-does-delivery/current/src/administrator/components/com_gcworkflowdeploy/feature_store/ZJHIR59P6OL196AF_1369950300.zip
-sudo jrush jfeature feature-pull --config-file=/var/www/gcapplications/live/dave-does-delivery/dave-does-delivery/current/src/configuration.php --pull-unique-time=ZJHIR59P6OL196AF_1369950300
-sudo jrush cache site-clear --config-file=/var/www/gcapplications/live/dave-does-delivery/dave-does-delivery/current/src/configuration.php
-sudo jrush jfeature folder-defaults --config-file=/var/www/gcapplications/live/dave-does-delivery/dave-does-delivery/current/src/configuration.php
-sudo chown -R www-data /var/www/gcapplications/live/dave-does-delivery/dave-does-delivery/current/src
+sudo jrush jfeature feature-install --config-file=/var/www/gcapplications/live/golden-contact-computing/dave-does-delivery/current/src/configuration.php --feature-file=/var/www/gcapplications/live/golden-contact-computing/dave-does-delivery/current/src/administrator/components/com_gcworkflowdeploy/feature_store/ZJHIR59P6OL196AF_1369950300.zip
+sudo jrush jfeature feature-pull --config-file=/var/www/gcapplications/live/golden-contact-computing/dave-does-delivery/current/src/configuration.php --pull-unique-time=ZJHIR59P6OL196AF_1369950300
+sudo jrush cache site-clear --config-file=/var/www/gcapplications/live/golden-contact-computing/dave-does-delivery/current/src/configuration.php
+sudo jrush jfeature folder-defaults --config-file=/var/www/gcapplications/live/golden-contact-computing/dave-does-delivery/current/src/configuration.php
+sudo chown -R www-data /var/www/gcapplications/live/golden-contact-computing/dave-does-delivery/current/src
 sudo rm autopilot-dddl-production-install.php
 SSHDATA;
   }

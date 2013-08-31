@@ -28,7 +28,7 @@ class AutoPilotConfigured extends AutoPilot {
 	      array(
           array ( "Project" => array(
                     "projectContainerInitExecute" => true,
-                    "projectContainerDirectory" => "/var/www/gcapplications/live/dave-does-delivery/dave-does-delivery",
+                    "projectContainerDirectory" => "/var/www/gcapplications/live/golden-contact-computing/dave-does-delivery",
           ) , ) ,
           array ( "CheckoutGit" => array(
                     "gitCheckoutExecute" => true,
@@ -66,7 +66,7 @@ class AutoPilotConfigured extends AutoPilot {
           ) , ) ,
           array ( "Version" => array(
                     "versionExecute" => true,
-                    "versionAppRootDirectory" => "/var/www/gcapplications/live/dave-does-delivery/dave-does-delivery",
+                    "versionAppRootDirectory" => "/var/www/gcapplications/live/golden-contact-computing/dave-does-delivery",
                     "versionArrayPointToRollback" => "0",
                     "versionLimit" => "3",
           ) , ) ,
