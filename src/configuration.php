@@ -12,10 +12,10 @@ class JConfig {
 	public $debug = '0';
 	public $debug_lang = '0';
 	public $dbtype = 'mysqli';
-  public $host = "****DB HOST****";
-  public $user = "****DB USER****";
-  public $password = "****DB PASS****";
-  public $db = "****DB NAME****";
+	public $host = '127.0.0.1';
+	public $user = 'root';
+	public $password = 'password';
+	public $db = 'dddl_dv_db';
 	public $dbprefix = 'jos_';
 	public $live_site = '';
 	public $secret = '534NFgOOj2IdChQz';
@@ -30,8 +30,8 @@ class JConfig {
 	public $ftp_enable = '0';
 	public $offset = 'UTC';
 	public $mailer = 'mail';
-	public $mailfrom = 'bigboss@golden-contact-computing.co.uk';
-	public $fromname = 'Ticketmaster Test';
+	public $mailfrom = 'bigboss@dave-does-delivery.co.uk';
+	public $fromname = 'Dave does Delivery';
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '0';
 	public $smtpuser = '';
@@ -53,8 +53,8 @@ class JConfig {
 	public $sef_suffix = '0';
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
-	public $log_path = '/var/www/ticket-test/src/logs';
-	public $tmp_path = '/var/www/ticket-test/src/tmp';
+	public $log_path = '/var/www/dave-does-delivery/src/logs';
+	public $tmp_path = '/var/www/dave-does-delivery/src/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
 	public $MetaRights = '';
