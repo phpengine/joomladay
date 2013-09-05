@@ -28,11 +28,11 @@ class AutoPilotConfigured extends AutoPilot {
 	      array(
           array ( "Project" => array(
                     "projectContainerInitExecute" => true,
-                    "projectContainerDirectory" => "/var/www/gcapplications/staging/golden-contact/dave-does-delivery",
+                    "projectContainerDirectory" => "/var/www/gcapplications/staging/golden-contact/pharoah-tools",
           ) , ) ,
           array ( "CheckoutGit" => array(
                     "gitCheckoutExecute" => true,
-                    "gitCheckoutProjectOriginRepo" => "https://phpengine:codeblue041291@bitbucket.org/phpengine/dave-does-delivery.git",
+                    "gitCheckoutProjectOriginRepo" => "https://phpengine:codeblue041291@bitbucket.org/phpengine/pharoah-tools.git",
                     "gitCheckoutCustomCloneFolder" => "",
                     "gitCheckoutCustomBranch" => "staging",
                     "gitCheckoutWebServerUser" => "www-data",
@@ -43,7 +43,7 @@ class AutoPilotConfigured extends AutoPilot {
           array ( "VHostEditor" => array(
                     "virtualHostEditorAdditionExecute" => true,
                     "virtualHostEditorAdditionDocRoot" => "",
-                    "virtualHostEditorAdditionURL" => "www.staging.dave-does-delivery.co.uk",
+                    "virtualHostEditorAdditionURL" => "www.staging.pharoah-tools.co.uk",
                     "virtualHostEditorAdditionIp" => "178.63.72.156",
                     "virtualHostEditorAdditionTemplateData" => "",
                     "virtualHostEditorAdditionDirectory" => "/etc/apache2/sites-available",
@@ -59,14 +59,14 @@ class AutoPilotConfigured extends AutoPilot {
           array ( "DBConfigure" => array(
                     "dbConfigureExecute" => true,
                     "dbConfigureDBHost" => "127.0.0.1",
-                    "dbConfigureDBUser" => "dddl_st_user",
-                    "dbConfigureDBPass" => "dddl_st_pass",
-                    "dbConfigureDBName" => "dddl_st_db",
+                    "dbConfigureDBUser" => "ptls_st_user",
+                    "dbConfigureDBPass" => "ptls_st_pass",
+                    "dbConfigureDBName" => "ptls_st_db",
                     "dbConfigurePlatform" => "joomla30",
           ) , ) ,
           array ( "Version" => array(
                     "versionExecute" => true,
-                    "versionAppRootDirectory" => "/var/www/gcapplications/staging/golden-contact/dave-does-delivery",
+                    "versionAppRootDirectory" => "/var/www/gcapplications/staging/golden-contact/pharoah-tools",
                     "versionArrayPointToRollback" => "0",
                     "versionLimit" => "3",
           ) , ) ,
@@ -98,9 +98,9 @@ private function changeToFirstInstallValues() {
     array ( "DBInstall" => array(
       "dbInstallExecute" => true,
       "dbInstallDBHost" => "127.0.0.1",
-      "dbInstallDBUser" => "dddl_st_user",
-      "dbInstallDBPass" => "dddl_st_pass",
-      "dbInstallDBName" => "dddl_st_db",
+      "dbInstallDBUser" => "ptls_st_user",
+      "dbInstallDBPass" => "ptls_st_pass",
+      "dbInstallDBName" => "ptls_st_db",
       "dbInstallDBRootUser" => "gcStagingAdmin",
       "dbInstallDBRootPass" => "gcStaging548989263592",
     ) , ) ;

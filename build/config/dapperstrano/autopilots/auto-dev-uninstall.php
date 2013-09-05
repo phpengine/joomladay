@@ -25,12 +25,12 @@ class AutoPilotConfigured extends AutoPilot {
           array ( "HostEditor" => array(
                     "hostEditorDeletionExecute" => true,
                     "hostEditorDeletionIP" => "127.0.0.1",
-                    "hostEditorDeletionURI" => "www.dave-does-delivery.tld",
+                    "hostEditorDeletionURI" => "www.pharoah-tools.tld",
           ) , ) ,
           array ( "VHostEditor" => array(
                     "virtualHostEditorDeletionExecute" => true,
                     "virtualHostEditorDeletionDirectory" => "/etc/apache2/sites-available",
-                    "virtualHostEditorDeletionTarget" => "www.dave-does-delivery.tld",
+                    "virtualHostEditorDeletionTarget" => "www.pharoah-tools.tld",
                     "virtualHostEditorDeletionVHostDisable" => true,
                     "virtualHostEditorDeletionSymLinkDirectory" => "/etc/apache2/sites-enabled",
                     "virtualHostEditorDeletionApacheCommand" => "apache2",
@@ -42,11 +42,11 @@ class AutoPilotConfigured extends AutoPilot {
           array ( "DBInstall" => array(
                     "dbDropExecute" => true,
                     "dbDropDBHost" => "127.0.0.1",
-                    "dbDropDBName" => "dddl_ts_db",
+                    "dbDropDBName" => "ptls_ts_db",
                     "dbDropDBRootUser" => "gcTestAdmin",
                     "dbDropDBRootPass" => "gcTest1234",
                     "dbDropUserExecute" => true,
-                    "dbDropDBUser" => "dddl_dv_user",
+                    "dbDropDBUser" => "ptls_dv_user",
           ) , ) ,
           array ( "CukeConf" => array(
                     "cukeConfDeletionExecute" => true,

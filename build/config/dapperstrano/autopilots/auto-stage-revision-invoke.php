@@ -43,18 +43,18 @@ class AutoPilotConfigured extends AutoPilot {
     $step = "0";
     $this->steps[$step]["InvokeSSH"]["sshInvokeSSHDataData"] = <<<"SSHDATA"
 cd /tmp
-git clone -b staging --no-checkout --depth 1 https://phpengine:codeblue041291@bitbucket.org/phpengine/dave-does-delivery.git
-cd dave-does-delivery
-git show HEAD:build/config/dapperstrano/autopilots/auto-stage-revision-install.php > /tmp/autopilot-dddl-stage-install.php
-rm -rf /tmp/dave-does-delivery
+git clone -b staging --no-checkout --depth 1 https://phpengine:codeblue041291@bitbucket.org/phpengine/pharoah-tools.git
+cd pharoah-tools
+git show HEAD:build/config/dapperstrano/autopilots/auto-stage-revision-install.php > /tmp/autopilot-ptls-stage-install.php
+rm -rf /tmp/pharoah-tools
 cd /tmp
-sudo dapperstrano autopilot execute autopilot-dddl-stage-install.php
-sudo jrush jfeature feature-install --config-file=/var/www/gcapplications/staging/golden-contact/dave-does-delivery/current/src/configuration.php --feature-file=/var/www/gcapplications/staging/golden-contact/dave-does-delivery/current/src/administrator/components/com_gcworkflowdeploy/feature_store/ZJHIR59P6OL196AF_1369950277.zip
-sudo jrush jfeature feature-pull --config-file=/var/www/gcapplications/staging/golden-contact/dave-does-delivery/current/src/configuration.php --pull-unique-time=ZJHIR59P6OL196AF_1369950277
-sudo jrush cache site-clear --config-file=/var/www/gcapplications/staging/golden-contact/dave-does-delivery/current/src/configuration.php
-sudo jrush jfeature folder-defaults --config-file=/var/www/gcapplications/staging/golden-contact/dave-does-delivery/current/src/configuration.php
-sudo chown -R www-data /var/www/gcapplications/staging/golden-contact/dave-does-delivery/current/src
-sudo rm autopilot-dddl-stage-install.php
+sudo dapperstrano autopilot execute autopilot-ptls-stage-install.php
+sudo jrush jfeature feature-install --config-file=/var/www/gcapplications/staging/golden-contact/pharoah-tools/current/src/configuration.php --feature-file=/var/www/gcapplications/staging/golden-contact/pharoah-tools/current/src/administrator/components/com_gcworkflowdeploy/feature_store/ZJHIR59P6OL196AF_1369950277.zip
+sudo jrush jfeature feature-pull --config-file=/var/www/gcapplications/staging/golden-contact/pharoah-tools/current/src/configuration.php --pull-unique-time=ZJHIR59P6OL196AF_1369950277
+sudo jrush cache site-clear --config-file=/var/www/gcapplications/staging/golden-contact/pharoah-tools/current/src/configuration.php
+sudo jrush jfeature folder-defaults --config-file=/var/www/gcapplications/staging/golden-contact/pharoah-tools/current/src/configuration.php
+sudo chown -R www-data /var/www/gcapplications/staging/golden-contact/pharoah-tools/current/src
+sudo rm autopilot-ptls-stage-install.php
 SSHDATA;
   }
 

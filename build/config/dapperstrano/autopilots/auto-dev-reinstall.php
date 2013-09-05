@@ -30,12 +30,12 @@ class AutoPilotConfigured extends AutoPilot {
           array ( "HostEditor" => array(
                     "hostEditorAdditionExecute" => true,
                     "hostEditorAdditionIP" => "127.0.0.1",
-                    "hostEditorAdditionURI" => "www.dave-does-delivery.tld",
+                    "hostEditorAdditionURI" => "www.pharoah-tools.tld",
           ) , ) ,
           array ( "VHostEditor" => array(
                     "virtualHostEditorAdditionExecute" => true,
                     "virtualHostEditorAdditionDocRoot" => "",
-                    "virtualHostEditorAdditionURL" => "www.dave-does-delivery.tld",
+                    "virtualHostEditorAdditionURL" => "www.pharoah-tools.tld",
                     "virtualHostEditorAdditionIp" => "127.0.0.1",
                     "virtualHostEditorAdditionTemplateData" => "",
                     "virtualHostEditorAdditionDirectory" => "/etc/apache2/sites-available",
@@ -51,9 +51,9 @@ class AutoPilotConfigured extends AutoPilot {
           array ( "DBConfigure" => array(
                     "dbConfigureExecute" => true,
                     "dbConfigureDBHost" => "127.0.0.1",
-                    "dbConfigureDBUser" => "dddl_dv_user",
-                    "dbConfigureDBPass" => "dddl_dv_pass",
-                    "dbConfigureDBName" => "dddl_dv_db",
+                    "dbConfigureDBUser" => "ptls_dv_user",
+                    "dbConfigureDBPass" => "ptls_dv_pass",
+                    "dbConfigureDBName" => "ptls_dv_db",
                     "dbConfigurePlatform" => "joomla30",
           ) , ) ,
 	      );

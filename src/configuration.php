@@ -4,7 +4,7 @@ class JConfig {
 	public $offline_message = 'This site is down for maintenance.<br /> Please check back again soon.';
 	public $display_offline_message = '1';
 	public $offline_image = '';
-	public $sitename = 'Dave Does Delivery';
+	public $sitename = 'Pharoah Tools';
 	public $editor = 'tinymce';
 	public $captcha = '0';
 	public $list_limit = '20';
@@ -12,10 +12,10 @@ class JConfig {
 	public $debug = '0';
 	public $debug_lang = '0';
 	public $dbtype = 'mysqli';
-	public $host = '127.0.0.1';
-	public $user = 'root';
-	public $password = 'password';
-	public $db = 'dddl_dv_db';
+  public $host = "127.0.0.1";
+  public $user = "ptls_dv_user";
+  public $password = "ptls_dv_pass";
+  public $db = "ptls_dv_db";
 	public $dbprefix = 'jos_';
 	public $live_site = '';
 	public $secret = '534NFgOOj2IdChQz';
@@ -30,7 +30,7 @@ class JConfig {
 	public $ftp_enable = '0';
 	public $offset = 'UTC';
 	public $mailer = 'mail';
-	public $mailfrom = 'bigboss@dave-does-delivery.co.uk';
+	public $mailfrom = 'phpengine@pharoah-tools.org.uk';
 	public $fromname = 'Dave does Delivery';
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '0';
@@ -53,8 +53,8 @@ class JConfig {
 	public $sef_suffix = '0';
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
-	public $log_path = '/var/www/dave-does-delivery/src/logs';
-	public $tmp_path = '/var/www/dave-does-delivery/src/tmp';
+	public $log_path = '/var/www/pharoah-tools/src/logs';
+	public $tmp_path = '/var/www/pharoah-tools/src/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
 	public $MetaRights = '';

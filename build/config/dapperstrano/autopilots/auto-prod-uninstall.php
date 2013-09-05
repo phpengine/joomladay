@@ -25,7 +25,7 @@ class AutoPilotConfigured extends AutoPilot {
           array ( "VHostEditor" => array(
                     "virtualHostEditorDeletionExecute" => true,
                     "virtualHostEditorDeletionDirectory" => "/etc/apache2/sites-available",
-                    "virtualHostEditorDeletionTarget" => "www.dave-does-delivery.co.uk",
+                    "virtualHostEditorDeletionTarget" => "www.pharoah-tools.co.uk",
                     "virtualHostEditorDeletionVHostDisable" => true,
                     "virtualHostEditorDeletionSymLinkDirectory" => "/etc/apache2/sites-enabled",
                     "virtualHostEditorDeletionApacheCommand" => "apache2",
@@ -37,11 +37,11 @@ class AutoPilotConfigured extends AutoPilot {
           array ( "DBInstall" => array(
                     "dbDropExecute" => true,
                     "dbDropDBHost" => "127.0.0.1",
-                    "dbDropDBName" => "dddl_pr_db",
+                    "dbDropDBName" => "ptls_pr_db",
                     "dbDropDBRootUser" => "gcLiveAdmin",
                     "dbDropDBRootPass" => "gcLive548989263592",
                     "dbDropUserExecute" => true,
-                    "dbDropDBUser" => "dddl_pr_user",
+                    "dbDropDBUser" => "ptls_pr_user",
           ) , ) ,
           array ( "CukeConf" => array(
                     "cukeConfDeletionExecute" => true,
