@@ -43,7 +43,7 @@ class AutoPilotConfigured extends AutoPilot {
           array ( "VHostEditor" => array(
                     "virtualHostEditorAdditionExecute" => true,
                     "virtualHostEditorAdditionDocRoot" => "",
-                    "virtualHostEditorAdditionURL" => "www.pharoah-tools.co.uk",
+                    "virtualHostEditorAdditionURL" => "www.pharoah-tools.org.uk",
                     "virtualHostEditorAdditionIp" => "178.63.72.156",
                     "virtualHostEditorAdditionTemplateData" => "",
                     "virtualHostEditorAdditionDirectory" => "/etc/apache2/sites-available",
