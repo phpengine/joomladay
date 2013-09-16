@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="/var/lib/jenkins/jobs/Imperial_Invites/workspace/deployed/build/tests/phpunit" tests="1" assertions="1" failures="0" errors="0" time="0.004749">
-    <testsuite name="GCCodePracticeControllerBaseClassTest" file="/var/lib/jenkins/jobs/Imperial_Invites/workspace/deployed/build/tests/phpunit/BaseTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.004749">
-      <testcase name="testMock" class="GCCodePracticeControllerBaseClassTest" file="/var/lib/jenkins/jobs/Imperial_Invites/workspace/deployed/build/tests/phpunit/BaseTest.php" line="9" assertions="1" time="0.004749"/>
+  <testsuite name="/var/lib/jenkins/jobs/Pharoah_Tools/workspace/deployed/build/tests/phpunit" tests="1" assertions="1" failures="0" errors="0" time="0.008244">
+    <testsuite name="GCCodePracticeControllerBaseClassTest" file="/var/lib/jenkins/jobs/Pharoah_Tools/workspace/deployed/build/tests/phpunit/BaseTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.008244">
+      <testcase name="testMock" class="GCCodePracticeControllerBaseClassTest" file="/var/lib/jenkins/jobs/Pharoah_Tools/workspace/deployed/build/tests/phpunit/BaseTest.php" line="9" assertions="1" time="0.008244"/>
     </testsuite>
   </testsuite>
 </testsuites>
