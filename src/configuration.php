@@ -12,10 +12,10 @@ class JConfig {
 	public $debug = '0';
 	public $debug_lang = '0';
 	public $dbtype = 'mysqli';
-  public $host = "****DB HOST****";
-  public $user = "****DB USER****";
-  public $password = "****DB PASS****";
-  public $db = "****DB NAME****";
+	public $host = '127.0.0.1';
+	public $user = 'ptls_dv_user';
+	public $password = 'ptls_dv_pass';
+	public $db = 'ptls_dv_db';
 	public $dbprefix = 'jos_';
 	public $live_site = '';
 	public $secret = '534NFgOOj2IdChQz';
@@ -49,7 +49,7 @@ class JConfig {
 	public $MetaVersion = '0';
 	public $robots = '';
 	public $sef = '1';
-	public $sef_rewrite = '0';
+	public $sef_rewrite = '1';
 	public $sef_suffix = '0';
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
