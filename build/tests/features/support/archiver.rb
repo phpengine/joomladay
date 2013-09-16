@@ -15,7 +15,7 @@ def archive_reports
   (Dir["../reports/cucumber/html/archives/*"].sort.reverse[5..-1] || []).each do |d|
     if File.directory? d
       puts "Removing archive at " << File.basename(d)
-      rm_rf d, verbose: false
+      rm_rf d
     end
   end
 
