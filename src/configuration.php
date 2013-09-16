@@ -12,10 +12,10 @@ class JConfig {
 	public $debug = '0';
 	public $debug_lang = '0';
 	public $dbtype = 'mysqli';
-	public $host = '127.0.0.1';
-	public $user = 'ptls_dv_user';
-	public $password = 'ptls_dv_pass';
-	public $db = 'ptls_dv_db';
+  public $host = "****DB HOST****";
+  public $user = "****DB USER****";
+  public $password = "****DB PASS****";
+  public $db = "****DB NAME****";
 	public $dbprefix = 'jos_';
 	public $live_site = '';
 	public $secret = '534NFgOOj2IdChQz';
