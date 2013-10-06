@@ -4,7 +4,7 @@ class JConfig {
 	public $offline_message = 'This site is down for maintenance.<br /> Please check back again soon.';
 	public $display_offline_message = '1';
 	public $offline_image = '';
-	public $sitename = 'Pharoah Tools';
+	public $sitename = 'Joomla Day Continuous Delivery';
 	public $editor = 'tinymce';
 	public $captcha = '0';
 	public $list_limit = '20';
@@ -12,10 +12,10 @@ class JConfig {
 	public $debug = '0';
 	public $debug_lang = '0';
 	public $dbtype = 'mysqli';
-  public $host = "****DB HOST****";
-  public $user = "****DB USER****";
-  public $password = "****DB PASS****";
-  public $db = "****DB NAME****";
+	public $host = '127.0.0.1';
+	public $user = 'jday_user';
+	public $password = 'jday_pass';
+	public $db = 'jday_db';
 	public $dbprefix = 'jos_';
 	public $live_site = '';
 	public $secret = '534NFgOOj2IdChQz';
